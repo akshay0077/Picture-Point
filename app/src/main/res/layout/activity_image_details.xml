@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="10dp"
+
+    tools:context=".ImageDetailsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/igDetailZoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:transitionName="ImageTN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_maxScale="8"
+            app:zoomage_minScale="0.6"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSetWallpaper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8mdp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/btn_shape"
+            android:text="Set Wallpaper"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnDownload"
+            app:layout_constraintStart_toEndOf="@+id/btnClose" />
+
+        <ImageView
+            android:id="@+id/btnDownload"
+            android:layout_width="@dimen/_42mdp"
+            android:layout_height="0dp"
+            android:background="@drawable/btn_shape"
+            android:padding="@dimen/_4mdp"
+            android:layout_marginEnd="@dimen/_10mdp"
+            android:src="@drawable/ic_baseline_arrow_circle_down_24"
+            app:layout_constraintBottom_toBottomOf="@+id/btnSetWallpaper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnSetWallpaper" />
+
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="@dimen/_42mdp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_10mdp"
+            android:background="@drawable/btn_shape"
+            android:padding="@dimen/_6mdp"
+            android:src="@drawable/ic_baseline_close_24"
+            app:layout_constraintBottom_toBottomOf="@+id/btnSetWallpaper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnSetWallpaper" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
