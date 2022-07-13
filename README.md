@@ -28,5 +28,5 @@ Storage: Needed to display the currently set wallpaper and to allow you to use c
 # Application ScreenShot
 
 
-<img src="https://play-lh.googleusercontent.com/1GX9_qUrL7o0u9WKaz018Z3vhGBP7mH3oEnvkMPW2EZwR8bXPLQRwdiSj2cqlj7xhQ=w2560-h1440-rw">
+<img src="https://play-lh.googleusercontent.com/1GX9_qUrL7o0u9WKaz018Z3vhGBP7mH3oEnvkMPW2EZwR8bXPLQRwdiSj2cqlj7xhQ=w2560-h1440-rw" height="200px" width="200px">
 <br/><br/>
