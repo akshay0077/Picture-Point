@@ -27,5 +27,5 @@ Storage: Needed to display the currently set wallpaper and to allow you to use c
 
 # Application ScreenShot
 
-<img src="https://github.com/akshay0077/Picture-Point/blob/Photos/status-saver.jpg" height="1500px">
+<img src="https://github.com/akshay0077/Picture-Point/blob/Photos/Picture-Point.jpg" height="1500px">
 
